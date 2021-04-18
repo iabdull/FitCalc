@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hackathon.health">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NetCaloriesActivity"></activity>
+        <activity
+            android:name=".TricepsStretchActivity"
+            android:label="@string/triceps_stretch"
+            android:parentActivityName=".StretchingActivity" />
+        <activity
+            android:name=".SeatedShoulderSqueezeActivity"
+            android:label="@string/seated_shoulder_squeeze"
+            android:parentActivityName=".StretchingActivity" />
+        <activity
+            android:name=".StandingHamstringStretchActivity"
+            android:label="@string/standing_hamstring_stretch"
+            android:parentActivityName=".StretchingActivity" />
+        <activity
+            android:name=".SidewaysNeckStretchActivity"
+            android:label="@string/sideways_neck_stretch"
+            android:parentActivityName=".StretchingActivity" />
+        <activity
+            android:name=".ButterflyStretchActivity"
+            android:label="@string/butterfly_stretch"
+            android:parentActivityName=".StretchingActivity" />
+        <activity
+            android:name=".CalfStretchActivity"
+            android:label="@string/calf_stretch"
+            android:parentActivityName=".StretchingActivity" />
+        <activity
+            android:name=".PlankCalActivity"
+            android:label="@string/plank"
+            android:parentActivityName=".CalisthenticsActivity" />
+        <activity
+            android:name=".SitupsCalActivity"
+            android:label="@string/situps"
+            android:parentActivityName=".CalisthenticsActivity" />
+        <activity
+            android:name=".SquatsCalActivity"
+            android:label="@string/squats"
+            android:parentActivityName=".CalisthenticsActivity" />
+        <activity
+            android:name=".PullupsActivity"
+            android:label="@string/pullups"
+            android:parentActivityName=".CalisthenticsActivity" />
+        <activity
+            android:name=".BurpeesActivity"
+            android:label="@string/burpees"
+            android:parentActivityName=".CalisthenticsActivity" />
+        <activity
+            android:name=".LungesActivity"
+            android:label="@string/lunges"
+            android:parentActivityName=".CalisthenticsActivity" />
+        <activity
+            android:name=".DeadliftActivity"
+            android:label="@string/dead_lift"
+            android:parentActivityName=".StrengthActivity" />
+        <activity
+            android:name=".BicepsCurlActivity"
+            android:label="@string/biceps_curl"
+            android:parentActivityName=".StrengthActivity" />
+        <activity
+            android:name=".PlankActivity"
+            android:label="@string/plank"
+            android:parentActivityName=".StrengthActivity" />
+        <activity
+            android:name=".SquatsActivity"
+            android:label="@string/squats"
+            android:parentActivityName=".StrengthActivity" />
+        <activity
+            android:name=".SitupsActivity"
+            android:label="@string/situps"
+            android:parentActivityName=".StrengthActivity" />
+        <activity
+            android:name=".PushupsActivity"
+            android:label="@string/pushups"
+            android:parentActivityName=".StrengthActivity" />
+        <activity android:name=".TimerActivity" />
+        <activity
+            android:name=".MountainClimbersActivity"
+            android:label="@string/mountain_climbers"
+            android:parentActivityName=".CardioActivity" />
+        <activity
+            android:name=".StairClimbActivity"
+            android:label="@string/stair_climb"
+            android:parentActivityName=".CardioActivity" />
+        <activity
+            android:name=".SquatJumpActivity"
+            android:label="@string/squat_jump"
+            android:parentActivityName=".CardioActivity" />
+        <activity
+            android:name=".JumpingJacksActivity"
+            android:label="@string/jumping_jacks"
+            android:parentActivityName=".CardioActivity" />
+        <activity
+            android:name=".JogInPlaceActivity"
+            android:label="@string/jog_in_place"
+            android:parentActivityName=".CardioActivity" />
+        <activity
+            android:name=".JumpRopeActivity"
+            android:label="@string/jump_rope"
+            android:parentActivityName=".CardioActivity" />
+        <activity
+            android:name=".CalorieCounterActivity"
+            android:label="@string/calorie_counter"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CalisthenticsActivity"
+            android:label="@string/calisthenics_exercises"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StrengthActivity"
+            android:label="@string/strength_exercises"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StretchingActivity"
+            android:label="@string/stretching_exercises"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CardioActivity"
+            android:label="@string/cardio_exercises"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

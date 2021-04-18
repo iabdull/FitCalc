@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">FitCalc</string>
+    <string name="cardio_exercises">Cardio Exercises</string>
+    <string name="stretching_exercises">Stretching Exercises</string>
+    <string name="strength_exercises">Lifting Exercises</string>
+    <string name="calisthenics_exercises">Calisthenics Exercises</string>
+    <string name="calorie_counter">Calorie Counter</string>
+    <string name="jump_rope">Jump Rope</string>
+    <string name="jog_in_place">Jog In Place</string>
+    <string name="jumping_jacks">Jumping Jacks</string>
+    <string name="squat_jump">Squat Jumps</string>
+    <string name="stair_climb">Stair Climb</string>
+    <string name="mountain_climbers">Mountain Climbers</string>
+    <string name="select_intensity">Select Intensity:</string>
+    <string name="timer">Timer:</string>
+    <string name="timer_label">Timer</string>
+    <string name="pushups">Pushups</string>
+    <string name="situps">Situps</string>
+    <string name="squats">Squats</string>
+    <string name="plank">Plank</string>
+    <string name="lunges">Lunges</string>
+    <string name="biceps_curl">Biceps Curl</string>
+    <string name="dead_lift">Dead Lift</string>
+    <string name="burpees">Burpees</string>
+    <string name="pullups">Pullups</string>
+    <string name="calf_stretch">Calf Stretch</string>
+    <string name="butterfly_stretch">Butterfly Stretch</string>
+    <string name="sideways_neck_stretch">Sideways Neck Stretch</string>
+    <string name="standing_hamstring_stretch">Standing Hamstring Stretch</string>
+    <string name="seated_shoulder_squeeze">Seated Shoulder Squeeze</string>
+    <string name="triceps_stretch">Triceps Stretch</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string-array name="cardio_list">
+        <item>Cardio 1</item>
+        <item>Cardio 2</item>
+        <item>Cardio 3</item>
+        <item>Cardio 4</item>
+        <item>Cardio 5</item>
+        <item>Cardio 6</item>
+    </string-array>
+
+    <string-array name="stretching_list">
+        <item>Stretch 1</item>
+        <item>Stretch 2</item>
+        <item>Stretch 3</item>
+        <item>Stretch 4</item>
+        <item>Stretch 5</item>
+        <item>Stretch 6</item>
+    </string-array>
+
+    <string-array name="strength_list">
+        <item>Strength 1</item>
+        <item>Strength 2</item>
+        <item>Strength 3</item>
+        <item>Strength 4</item>
+        <item>Strength 5</item>
+        <item>Strength 6</item>
+    </string-array>
+
+    <string-array name="calisthenics_list">
+        <item>Calisthenics 1</item>
+        <item>Calisthenics 2</item>
+        <item>Calisthenics 3</item>
+        <item>Calisthenics 4</item>
+        <item>Calisthenics 5</item>
+        <item>Calisthenics 6</item>
+    </string-array>
+
+</resources>
